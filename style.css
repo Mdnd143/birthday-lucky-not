@@ -1,0 +1,39 @@
+h1{
+  text-align: center
+}
+.container{
+  width: 50%;
+  margin: auto;
+}
+input,
+label{
+  display: block;
+}
+input{
+ margin-bottom: 0.5rem;
+ width: 100%;
+}
+#check-number{
+  margin-top: 1rem;
+  margin: auto;
+  display: block;
+  background-color: rgb(171, 176, 179);
+  color: rgb(55, 66, 24);
+  border-color: black;
+  border-width: medium;
+  border-radius: 0.5rem;
+
+}
+#output-box{
+  margin-top: 1rem;
+  display: block;
+  background-color: rgb(171, 176, 179);
+  color: rgb(55, 66, 24);
+  border-color: black;
+  border-width: medium;
+  border-radius: 0.5rem;
+}
+body{
+  background-color: rgb(170, 220, 243);
+ color: rgb(162, 11, 192);
+}
