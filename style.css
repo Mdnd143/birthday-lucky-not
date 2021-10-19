@@ -27,11 +27,14 @@ input{
 #output-box{
   margin-top: 1rem;
   display: block;
-  background-color: rgb(171, 176, 179);
+  background-color: rgb(209, 216, 219);
   color: rgb(55, 66, 24);
   border-color: black;
   border-width: medium;
   border-radius: 0.5rem;
+  font-size: 150%;
+  height: 3rem;
+  width: 100%;
 }
 body{
   background-color: rgb(170, 220, 243);
