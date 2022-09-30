@@ -9,14 +9,16 @@
 </head>
 
 <body>
+  <div class="container">
 	<h1>wants to know whether your birthday lucky or not? try here!</h1>
-	<div class="container">
-		<label for="date-of-birth">Date of Birth</label>
-      <input type="date" id="date-of-birth"  required>
-      <label for="lucky-number">Your Lucky Number</label>
-    <input type="number" id="lucky-number" required>
-    <button id="check-number">Check Number Here</button>
-<textarea id="output-box" disabled></textarea>
+	
+		<div><label for="date-of-birth">Date of Birth : </label>
+      <input type="date" id="date-of-birth"  required></div>
+      <div>
+        <label for="lucky-number">Your Lucky Number : </label>
+      <input type="number" id="lucky-number" required></div>
+    <div class="btn"><button id="check-number">Check</button></div>
+<div id="output-box" class="output"></div>
     </div>
     <script src="script.js"></script>
   </body>
